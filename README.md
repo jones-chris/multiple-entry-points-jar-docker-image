@@ -56,7 +56,7 @@ You should see `In the anotherEntryPoint method` output in the terminal.
 5. Run `docker run --entrypoint '/bin/sh' joneschris/multiple-jar-entry-points:1 -c 'java -DentryPointMethod=nonExistentMethod -jar /multiple-entry-points-jar-docker-image/multiple-entry-points-jar-docker-image-1.0-SNAPSHOT.jar'`.
 An exception stacktrace should be output in your terminal.
 
-##Conclusion
+## Conclusion
 
 Hopefully this has been helpful in showing how you can have multiple entry points in a single jar file.  Some use cases for this are:
 
