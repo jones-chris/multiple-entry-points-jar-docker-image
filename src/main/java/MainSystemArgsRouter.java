@@ -19,29 +19,6 @@ public class MainSystemArgsRouter {
                     Main.main(args);
                 }
         );
-
-//        if (entryPointMethod == null) {
-//            Main.main(args);
-//        }
-//
-//        if (entryPointMethod.equals("anotherEntryPoint")) {
-//            AnotherEntryPoint.main(args);
-//        } else {
-//            throw new IllegalArgumentException(
-//                    String.format("Did not recognize %s", args[0])
-//            );
-//        }
-//
-//        // If no args, then execute the default Main.main method.
-//        if (args.length == 0) {
-//            Main.main(args);
-//        } else if (args[0].equals("anotherEntryPoint")) {
-//            AnotherEntryPoint.main(args);
-//        } else {
-//            throw new IllegalArgumentException(
-//                    String.format("Did not recognize %s", args[0])
-//            );
-//        }
     }
 
 }
